@@ -1,0 +1,23 @@
+:root {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', system-ui, sans-serif;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #1c1c1c;
+  background-color: #f7f6fb;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(160deg, #fff7f7 0%, #f3ecff 100%);
+}
+
+button {
+  font-family: inherit;
+}
