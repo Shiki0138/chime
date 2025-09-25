@@ -1,4 +1,9 @@
-const assetUrl = (path) => new URL(path, import.meta.env.BASE_URL).href;
+const normalizeBase = (base) => {
+  if (!base) return "/";
+  return base.endsWith("/") ? base : `${base}/`;
+};
+
+const assetUrl = (path) => `${normalizeBase(import.meta.env.BASE_URL)}${path}`;
 
 export const SOUND_MAP = {
   gojo: {
