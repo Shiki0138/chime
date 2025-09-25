@@ -38,7 +38,7 @@ export const SOUND_MAP = {
     detailStyle: "image",
   },
   bell: {
-    label: "ベル",
+    label: "黒電話",
     image: assetUrl("images/bell.jpg"),
     file: assetUrl("sounds/rinrin.mp3"),
     tone: { frequency: 523.25, type: "triangle" },
