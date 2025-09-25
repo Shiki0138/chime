@@ -35,3 +35,12 @@ npm run build
 ```
 
 出力は `dist` ディレクトリに生成されます。
+
+## GitHub Pages に公開する
+
+このリポジトリは GitHub Actions を使って GitHub Pages へ自動デプロイされます。
+
+1. GitHub でリポジトリの **Settings → Pages** に進み、Build and deployment の Source を **GitHub Actions** に設定します。
+2. `main` ブランチへプッシュすると、`.github/workflows/deploy.yml` が実行され、`dist` が GitHub Pages に公開されます。
+
+デプロイ完了後は `https://shiki0138.github.io/chime/` でアプリを確認できます。
